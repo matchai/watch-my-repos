@@ -1,12 +1,10 @@
 <p align="center">
+  <img width="128" src="https://user-images.githubusercontent.com/4658208/55198231-97c3b400-518b-11e9-905b-024b8079add3.png">
   <h3 align="center">watch-my-repos</h3>
   <p align="center">Automatically watch my newly created repos</p>
 </p>
 
 ---
-
-Automatically watch all your repos without automatically watching those of the
-teams you're on.
 
 GitHub notification settings don't have the granularity to be able to
 automatically watch your own repos without also watching all the other repos you
