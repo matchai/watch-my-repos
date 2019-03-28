@@ -23,14 +23,14 @@ async function main() {
     }
     try {
       await watchRepo(repo);
-      console.log(`"${repo.full_name}" is now being watched.`);
+      console.log(`${repo.full_name} is now being watched.`);
     } catch (error) {
       console.error(`Unable to update repo subscription.\n${error}`);
     }
   }
 }
 
-function minutesSinceRepoCreation(repo, currentDate) {
+function minutesSinceRepoCreation(repo) {
   const repoCreatedDate = new Date(repo.created_at);
   return differenceInMinutes(startingDate, repoCreatedDate);
 }

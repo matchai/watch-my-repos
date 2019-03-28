@@ -5,14 +5,18 @@
 
 ---
 
+Automatically watch all your repos without automatically watching those of the
+teams you're on.
+
+GitHub notification settings don't have the granularity to be able to
+automatically watch your own repos without also watching all the other repos you
+are given push access to. This will only follow repos you have newly created.
+
 ## Setup
-
-### Prep work
-
-1. Create a token with the `repo` scope and copy it. (https://github.com/settings/tokens/new)
 
 ### Project setup
 
+1. Create a token with the `repo` scope and copy it. (https://github.com/settings/tokens/new)
 1. Fork this repo
 1. Log into CircleCI with your GitHub (https://circleci.com/vcs-authorize/)
 1. Click on "Add Projects" on the sidebar
